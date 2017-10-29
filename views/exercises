@@ -1,0 +1,24 @@
+%h1 Exercises
+
+%table{:border => 1}
+    %tbody
+        %tr
+            %th M1
+            %th M2
+            %th M3
+            %th M4
+        %tr
+            %th M5
+            %th M6
+            %th M7
+            %th M8
+%br
+
+%table{:border => 1}
+    %tbody
+        %tr
+            %th Exercises
+            -#@MuscleGroup.each do |x|
+            -#x.show-exercise
+
+-#https://stackoverflow.com/questions/16246399/how-to-build-a-table-using-haml
